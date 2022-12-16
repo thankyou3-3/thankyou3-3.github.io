@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto Slab";
-    background-color:aliceblue;
+    background-color:rgb(252,225,230);
 }
 
 a {
@@ -18,17 +18,17 @@ h1 {
 
 .h2 {
     font-size: 35px;
-    color:cadetblue;
+    color:rgb(193, 90, 244);
 }
 
 .h1 {
     font-size: 40px;
-    color:cadetblue;
+    color:rgb(193, 90, 244);
 }
 
 .h3 {
     font-size: 24px;
-    color:cadetblue;
+    color:rgb(213, 160, 244);
 }
 
 .wrapper {
@@ -38,8 +38,7 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-    .wrapper {
-        margin: 0 auto 100px auto;
+    .wrapper {     margin: 0 auto 100px auto;
         padding: 0 0 0 0;
         max-width:90%;
     }
