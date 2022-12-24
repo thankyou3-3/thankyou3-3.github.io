@@ -37,9 +37,22 @@ h1 {
     max-width:70%;
 }
 
+.startbtn {
+    margin: 50px auto 100px auto;
+    padding: 0 0 0 0;
+    max-width:50%;
+}
+
+#div1 {
+    margin: 50px auto 100px auto;
+    padding: 0 0 0 0;
+    max-width:50%;
+}
+
 @media screen and (max-width: 768px) {
     .wrapper {     margin: 0 auto 100px auto;
         padding: 0 0 0 0;
         max-width:90%;
     }
 }
+
