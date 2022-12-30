@@ -12,8 +12,9 @@
         
     </head>
     <body> 
-        <h1>あなたが陽キャの場合は１を、陰キャの場合は０を入力してください。
-        </h1>
+        <input type="button" value="開始"
+        onclick="i=0; msg='あなたが陽キャの場合は1を、陰キャの場合は0を入力してください'; timerID=setInterval('if(i<=msg.length){document.all.div1.innerText=msg.substring(0,i); i++;}if(i>msg.length){clearInterval(timerID);}',250);">
+        <div id=div1></div>
         <input type="number" id="num" max="10" min="1"/>
         <input type="button" value="クリック" onclick="clickBtn()" />
         <p id="result"></p>
