@@ -16,6 +16,10 @@ h1 {
     font-size: 40px;
 }
 
+.hide {
+    color: rgb(252,225,230);
+}
+
 .h2 {
     font-size: 35px;
     color:rgb(193, 90, 244);
